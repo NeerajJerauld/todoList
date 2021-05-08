@@ -16,7 +16,7 @@ function nextPage(result){
     if(result){
         console.log("Next page please")
         passwordErrEle.hidden = true;
-        validationFormEle.setAttribute("action","todoList.html")
+        validationFormEle.setAttribute("action","toDoList.html")
         return true
     }else{
         console.log("dont go to next page.")
